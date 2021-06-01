@@ -47,10 +47,14 @@ public class MainActivity extends AppCompatActivity implements
         Log.e("TAG","Hello git");
     }
 
+    //实现了xxx功能
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+    }
 
 
-
-/*
+    /*
     //恢复数据2
     @Override
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
