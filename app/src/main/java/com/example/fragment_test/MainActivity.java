@@ -43,8 +43,9 @@ public class MainActivity extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView(savedInstanceState);
+        //TODO  这是子分支  修复了xxx
+        Log.e("TAG","Hello git");
     }
-
 
 
 
